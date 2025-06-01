@@ -1,0 +1,20 @@
+# системные файлы
+/cgi-bin/
+/awstats/
+/webstat/
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+/.idea/
+
+# зависимости
+node_modules/
+bower_components
+.grunt
+.npm
+.env
+
+# скомпилированные файлы
+scripts/main.js.map
