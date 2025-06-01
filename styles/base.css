@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0 ;
+
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+   
+
+}
+
+.wrapper {
+    display: none;
+    max-width:  1440px;
+    margin: 0 auto;
+  
+    
+    
+}
+@media (max-width: 600px) {
+    .wrapper { flex-direction: column; }
+  }
